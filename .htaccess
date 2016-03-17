@@ -1,0 +1,8 @@
+<IfModule mod_rewrite.c>
+	RewriteEngine on
+
+	RewriteRule ^concerts/?$ concerts.php
+	RewriteRule ^concerts/([0-9]+)$ concerts.php?id=$1
+	RewriteRule ^concerts/([0-9]+)/$ concerts.php?id=$1
+
+</IfModule>
