@@ -1,3 +1,6 @@
-Restful webservice
+# Restful webservice - school assignment
 
-Schoolopdracht jaar 2
+REST API concerts
+
+
+
